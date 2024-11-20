@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.App-header {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #efefef;
+}
+
+.App-header::before {
+  content: "";
+}
+
+.App-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
